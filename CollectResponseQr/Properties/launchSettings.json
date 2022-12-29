@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CollectResponseQr": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7070",
+      "environmentVariables": {
+        "SqlConnectionString": "Server=tcp:responseqr.database.windows.net,1433;Initial Catalog=responseQr;Persist Security Info=False;User ID=marcodevlg;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      }
+    }
+  }
+}
